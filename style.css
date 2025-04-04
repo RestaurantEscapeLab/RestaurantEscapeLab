@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>식당탈출연구소</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+        }
+        .logo {
+            width: 300px;
+            height: auto;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 20px 0 10px;
+        }
+        p {
+            font-size: 1.2em;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="식당탈출연구소 로고" class="logo">
+        <h1>식당탈출연구소</h1>
+        <p>식당에서 탈출한 특이 식품들로 맛을 찾는 특이 브랜드.</p>
+    </div>
+</body>
+</html>
